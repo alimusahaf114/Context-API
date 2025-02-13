@@ -1,0 +1,21 @@
+input {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(241, 237, 237);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+#item-container {
+  text-align: left;
+}
+
+.kg-button {
+  min-width: 80px;
+}
+
+.kg-row {
+  margin: 10px 5px;
+}

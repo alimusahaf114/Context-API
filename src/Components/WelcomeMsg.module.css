@@ -1,0 +1,8 @@
+.welcome {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(59, 252, 59);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+}
