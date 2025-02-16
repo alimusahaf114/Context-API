@@ -1,5 +1,9 @@
+import { useContext } from "react";
+import { TodoItemsContext } from "../Store/todo-items-store";
 import TodoItem from "./TodoItem";
-const TodoItems = ({ todoItems, onClickFunction }) => {
+const TodoItems = ({ onClickFunction }) => {
+  const { todoItems } = useContext(TodoItemsContext);
+
   return (
     <>
       <div id="item-container">
